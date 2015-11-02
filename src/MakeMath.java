@@ -1,9 +1,11 @@
 
 public class MakeMath {
 	public static void main(String []args) {
-		// create an array with 4 indexes
-		
-		// create a for loop that while i is less than the 
+		int[] dohyunArray = new int[4]; // create an array with 4 indexes
+		for (int i=0; i<4; i++) {
+			System.out.println (i);
+		}
+			// create a for loop that while i is less than the 
 		// yourArray.length, then it will set the element to i at 
 		// the index of yourArray that is equal to i
 		// During this, print your array
